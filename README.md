@@ -18,3 +18,8 @@ wget https://raw.githubusercontent.com/rbizoi/AnalyserLesDonneesAvecSpark/main/c
 
 . chargeJava.sh
 >> le mot de passe du FTP
+
+
+mkdir -p Documents\donnees
+
+wget https://github.com/rbizoi/AnalyserLesDonneesAvecSpark/blob/main/traitementsMeteo/ExecutionApplicationPySpark.ipynb
