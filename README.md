@@ -10,9 +10,11 @@ wget https://raw.githubusercontent.com/rbizoi/AnalyserLesDonneesAvecSpark/main/i
 
 . .profile
 
+wget https://raw.githubusercontent.com/rbizoi/AnalyserLesDonneesAvecSpark/main/configureJupyter.sh
+
 . configureJupyter.sh
 
-sftp -P 2424 coursDB@51.91.76.248<<FIN_FICHIER
-put java-8-openjdk-amd64.tar.gz spark
-exit
-FIN_FICHIER
+wget https://raw.githubusercontent.com/rbizoi/AnalyserLesDonneesAvecSpark/main/chargeJava.sh
+
+. chargeJava.sh
+>> le mot de passe du FTP
