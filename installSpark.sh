@@ -28,8 +28,8 @@ if [ -d "\$HOME/.local/bin" ] ; then
 fi
 export SPARK_HOME=~/spark
 export PYSPARK_PYTHON=~/anaconda3/bin/python3
-export PYSPARK_DRIVER_PYTHON=python3
-#export PYSPARK_DRIVER_PYTHON=jupyter
+#export PYSPARK_DRIVER_PYTHON=python3
+export PYSPARK_DRIVER_PYTHON=jupyter
 export PYSPARK_DRIVER_PYTHON_OPTS='notebook'
 export PATH=\$SPARK_HOME/bin:\$SPARK_HOME/sbin:\$PATH
 FIN_FICHIER
