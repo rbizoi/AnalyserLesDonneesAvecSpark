@@ -19,6 +19,7 @@ wget https://raw.githubusercontent.com/rbizoi/AnalyserLesDonneesAvecSpark/main/c
 . chargeJava.sh
 >> le mot de passe du FTP
 
+. .profile
 
 mkdir -p Documents\donnees
 
