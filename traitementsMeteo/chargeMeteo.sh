@@ -1,6 +1,6 @@
 #!/bin/bash
-# 
-for annee in `seq 1996 2021`
+#
+for annee in `seq 2019 2020`
 do
     for mois in `seq 1 12`
     do
