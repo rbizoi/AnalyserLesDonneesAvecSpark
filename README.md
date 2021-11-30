@@ -22,5 +22,6 @@ wget https://raw.githubusercontent.com/rbizoi/AnalyserLesDonneesAvecSpark/main/c
 . .profile
 
 mkdir -p Documents\donnees
+cd Documents
 
 wget https://github.com/rbizoi/AnalyserLesDonneesAvecSpark/blob/main/traitementsMeteo/ExecutionApplicationPySpark.ipynb
