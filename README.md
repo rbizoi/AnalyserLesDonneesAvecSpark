@@ -2,6 +2,6 @@
 
 ## Installer les prérequis
 ### Linux
-curl -s https://raw.githubusercontent.com/rbizoi/IntelligenceEnDonneesDeSante/main/Installation/installSpark.sh
+curl -s https://raw.githubusercontent.com/rbizoi/AnalyserLesDonneesAvecSpark/main/installSpark.sh
 
-curl --output installSpark.sh --url https://raw.githubusercontent.com/rbizoi/IntelligenceEnDonneesDeSante/main/Installation/installSpark.sh
+ wget https://raw.githubusercontent.com/rbizoi/AnalyserLesDonneesAvecSpark/main/installSpark.sh
