@@ -5,6 +5,8 @@ get spark/java-8-openjdk-amd64.tar.gz
 exit
 FIN_FICHIER
 
+tar xzvf java-8-openjdk-amd64.tar.gz
+
 cat << FIN_FICHIER >> .profile
 export JAVA_HOME=~/usr/lib/jvm/java-8-openjdk-amd64
 export PATH=$JAVA_HOME/bin:$PATH:$HOME/bin
