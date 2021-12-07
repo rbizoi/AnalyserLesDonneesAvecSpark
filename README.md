@@ -14,6 +14,9 @@ wget https://raw.githubusercontent.com/rbizoi/AnalyserLesDonneesAvecSpark/main/c
 
 . configureJupyter.sh
 
+openjdk-8-jdk-headless
+
+
 wget https://raw.githubusercontent.com/rbizoi/AnalyserLesDonneesAvecSpark/main/chargeJava.sh
 
 . chargeJava.sh
